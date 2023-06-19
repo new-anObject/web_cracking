@@ -1,0 +1,4 @@
+train: D:/zhihuipro/train_data/geetest3/slide_img/train/images
+val: D:/zhihuipro/train_data/geetest3/slide_img/valid/images
+nc: 1
+names: ["target"]
