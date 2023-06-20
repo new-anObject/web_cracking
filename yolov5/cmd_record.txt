@@ -1,0 +1,7 @@
+训练:
+D:/zhihuipro/yuanqu_crawl\anjuke\anjuke\utils\verify\slide_img\data.yaml
+python train.py --data D:/train_data/geetest3/slide_img/data.yaml --cfg ./models/yolov5s.yaml --batch-size 8
+测试：
+python detect.py --source ./captcha_913.png --weights ./runs/train/exp42/weights/best.pt
+yolov5/runs/train/exp14/weights
+python train.py --data E:/slidedata/data.yaml --cfg ./models/yolov5s.yaml --batch-size 8 --weights ./runs/train/exp14/weights/best.pt

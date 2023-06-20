@@ -1,0 +1,9 @@
+train: D:/huakuai_data/train/images/  # 118287 images
+val: D:/huakuai_data/valid/images/  # 5000 images
+#test: /home/yyz/yolov5/mydataset/ppe_yolov5_dataset/test.txt  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+
+# number of classes
+nc: 1
+
+# class names
+names: [ 'target' ]
